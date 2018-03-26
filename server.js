@@ -45,17 +45,17 @@ var getWeather = (address) => {
 };
 
 //---------------------------------------------------------------------------
-app.use((request, response, next) => {
-	response.render('maintenance.hbs', {
-		title: 'Main page',
-		year: new Date().getFullYear(),
-		about: 'Welcome to my main page',
-		goodbye: 'Goodbye!',
-		// link: 'info',
-		// page: 'About me',
-		tWeather: 'The site is currently down for a maintenance'
-	});
-});
+// app.use((request, response, next) => {
+// 	response.render('maintenance.hbs', {
+// 		title: 'Main page',
+// 		year: new Date().getFullYear(),
+// 		about: 'Welcome to my main page',
+// 		goodbye: 'Goodbye!',
+// 		// link: 'info',
+// 		// page: 'About me',
+// 		tWeather: 'The site is currently down for a maintenance'
+// 	});
+// });
 
 app.use((request, response, next) => {
 	var time = new Date().toString();
