@@ -3,7 +3,7 @@ const request = require('request');
 const hbs = require('hbs');
 const fs = require('fs');
 
-const port = process.env.PORT || 8080
+const port = process.env.PORT || 8080;
 
 var app = express();
 var weather = ''; //variable to hold the weather info
