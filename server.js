@@ -125,7 +125,7 @@ app.get('/start', (request, response) => {
 	});
 });
 
-app.listen(8080, () => {
+app.listen(port, () => {
     console.log(`Server is up on the port ${port}`);
     // here add the logic to return the weather based on the statically provided location and save it inside the weather variable
     getAddress('Vancouver').then((result) => {
