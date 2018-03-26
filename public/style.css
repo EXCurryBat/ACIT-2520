@@ -1,0 +1,42 @@
+.body {
+	padding: 0;
+}
+
+#top {
+    width:95vw;
+    height:100px;
+    color:gold;
+    text-shadow: 1px 3px 3px rgba(135, 206, 235, 1);
+    border-style: ridge;
+    border-color:burlywood;
+    padding: 3px;
+    position: fixed;
+    display: inline-block;
+    text-align: center;
+}
+
+#bot {
+	position:relative;
+	top:125px;
+    width:95vw;
+    height:75vh;
+    text-align:center;
+    color:gold; 
+    text-shadow: 1px 3px 3px rgba(135, 206, 235, 1);
+    border-style: ridge;
+    border-color:burlywood;
+    padding: 3px;
+    font-size: 20px;
+    display: block;
+}
+
+#foot {
+	text-align:center;
+    color:gold; 
+    text-shadow: 1px 3px 3px rgba(135, 206, 235, 1);
+    border-style: ridge;
+    border-color:burlywood;
+    padding: 3px;
+    font-size: 20px;
+    display: block;
+}
